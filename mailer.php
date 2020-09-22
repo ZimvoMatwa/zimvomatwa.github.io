@@ -27,7 +27,7 @@
     $email_headers = "From: $name <$email>";
 
     //send the email
-    mail($recipient, $subject, $email_content, $email_headers))
+    mail($recipient, $subject, $email_content, $email_headers));
 
     //redirect to the index.php page with success code
     header("Location: https://zimvomatwa.github.io/index.php?success=1#form");
