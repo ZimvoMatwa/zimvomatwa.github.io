@@ -4,6 +4,8 @@
 
 /*----------------------------------------------------------------*/
 
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+
 * {
 
     margin: 0;
@@ -22,7 +24,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Lato','Arial', sans-serif;
+    font-family: 'Roboto', 'Lato','Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optmizelegibility;
@@ -193,6 +195,7 @@ h2:after {
     color: #e67e22;
 
     margin: 10px;
+    text-align: center;
 
 }
 
@@ -445,7 +448,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.96);
+    background: rgb(230, 230, 230);
     box-shadow: 0 2px 2px /*#efefef*/;
     z-index: 9999;
 }
@@ -470,12 +473,45 @@ header {
 /*----------------------------------------------------------------*/
 /* FEATURES */
 /*----------------------------------------------------------------*/
+.section-features {
+    /* margin: ; */
+    text-align: center;
+}
+
 .section-features,
 .long-copy {
     margin-bottom: 30px;
 }
 
+.section-features h3 {
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #cf6d17;
+    /* vertical-align: middle; */
+}
 
+
+/* Form messages */
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.success { background-color: rgba(38, 191, 68, 0.8); }
+
+.error {background-color: rgba(209, 46, 46, 0.8); }
 
 /*----------------------------------------------------------------*/
 
@@ -793,6 +829,7 @@ footer {
 }
 
 .ion-social-facebook,
+.ion-social-github
 .ion-social-twitter,
 .ion-social-instagram,
 .ion-social-whatsapp {
@@ -802,6 +839,10 @@ footer {
 
 .ion-social-facebook:hover {
     color: #1877f2;
+}
+
+.ion-social-github:hover {
+    color: #fff;
 }
 
 .ion-social-twitter:hover {
