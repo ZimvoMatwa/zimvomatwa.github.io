@@ -14,6 +14,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/projects-style.css"/>
         <title>Zimvo</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
@@ -43,7 +44,7 @@
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1>Hey, wanderer, welcome<br>Zimvotopia (not my idea) is under construction, but feel free to explore it</h1>
+                <h1 class="heading">Hey, wanderer, welcome<br>Zimvotopia (not my idea) is under construction, but feel free to explore it</h1>
                 <a class="btn btn-full js-scroll-to-section-projects" href="#cities">Friends</a><!--we don't just build software, we build relations-->
                 <a class="btn btn-ghost js-scroll-to-section-packages" href="coming-soon.html">Sneak Peek</a>
             </div>
@@ -96,51 +97,96 @@
         </section>
         
         <section class="section-projects js-section-projects" id="recent-projects"><!--this should showcase crrent, underway and previous projects-->
-            <h3 class="long-copy">Here are some things we are doing</h3>
-            <ul class="projects-showcase clearfix">
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/20191121_190656min.jpg" alt="20191121_190656">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/coolmen.jpg" alt="coolomen">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/greatsunview.jpg" alt="greatsunview">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/city_lights.jpg" alt="city_lights">
-                    </figure>
-                </li>
-            </ul>
-            <ul class="projects-showcase  clearfix">
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/city_lights2.jpg" alt="city_lights2">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <img src="resources/img/morejunk.jpg" alt="morejunk">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <!-- <img src="resources/img/coolomen.jpg" alt="coolomen"> -->
-                    </figure>
-                </li>
-                <li>
-                    <figure class="project-photo">
-                        <!-- <img src="resources/img/20191121_190656-min.jpg" alt="20191121_190656"> -->
-                    </figure>
-                </li>
-            </ul>
+            <!-- <h3 class="long-copy">Here are some things we are doing</h3> -->
+            <div>
+                <figure class="recent">
+                    <div class="recent__hero">
+                        <a href="coming-soon.html" alt="projectshell" target="_blank"><img src="resources/img/projects/projectShell.jpg" alt="projectShell" class="recent__image"></a>
+                    </div>
+                    <div class="recent__content">
+                        <div class="recent__title">
+                            <h1 class="recent__heading">projectShell</h1>
+                            <div class="recent__tag recent__tag__1">Android</div>
+                            <div class="recent__tag recent__tag__2">iOS</div>
+                        </div>
+                        <p class="recent__desc">projectShell is a 2018 idea that has been collecting dust since, super excited to bring it to you<!--at the time it was raw and exciting - I am partly happy I did not execute it at the time as I had far more greater chance to completely ruin it than I do now. With all that said-->, I hope you find use for it when it comes out.</p>
+                        <div class="recent__details">
+                            <p class="recent__detail website"><span class="icon"><i class="ion-social-android"></i></span><a href="#" alt="Android">Android</a></p>
+                            <p class="recent__detail discord"><span class="icon"><i class="ion-social-apple"></i> </span><a href="#" alt="ios" target="_blank">iOS</a></p>
+                        </div>
+                    </div>
+                    <div class="recent__release">
+                        Live: Dec. 2020
+                    </div>
+                </figure>
+    
+                <figure class="recent">
+                    <div class="recent__hero">
+                        <a href="coming-soon.html" alt="projectshell" target="_blank"><img src="resources/img/projects/projectShell.jpg" alt="projectShell" class="recent__image"></a>
+                    </div>
+                    <div class="recent__content">
+                        <div class="recent__title">
+                            <h1 class="recent__heading">noodles</h1>
+                            <div class="recent__tag recent__tag__1">Android</div>
+                            <div class="recent__tag recent__tag__2">iOS</div>
+                        </div>
+                        <p class="recent__desc">Noodles was originally "floaties", then "pool noodles", and now "Noodles". The name could use with improvement.</p>
+                        <div class="recent__details">
+                            <p class="recent__detail website"><span class="icon"><i class="ion-social-android"></i></span><a href="#" alt="Android">Android</a></p>
+                            <p class="recent__detail discord"><span class="icon"><i class="ion-social-apple"></i> </span><a href="#" alt="ios" target="_blank">iOS</a></p>
+                        </div>
+                    </div>
+                    <div class="recent__release">
+                        Coming Soon
+                    </div>
+                </figure>
+            </div>
+    
+            <div>
+                <figure class="recent">
+                    <div class="recent__hero">
+                        <a href="coming-soon.html" alt="projectshell" target="_blank"><img src="resources/img/projects/projectShell.jpg" alt="projectShell" class="recent__image"></a>
+                    </div>
+                    <div class="recent__content">
+                        <div class="recent__title">
+                            <h1 class="recent__heading">projectgmb</h1>
+                            <div class="recent__tag recent__tag__1">Web</div>
+                            <div class="recent__tag recent__tag__2">Android</div>
+                        </div>
+                        <p class="recent__desc">This is recent development. Adobe XD prototypes available for testing.</p>
+                        <div class="recent__details">
+                            <p class="recent__detail website"><span class="icon"><i class="ion-social-android"></i></span><a href="#" alt="Android">Android</a></p>
+                            <p class="recent__detail website"><span class="icon"><i class="ion-laptop"></i></span><a href="#" alt="web">Web</a></p>
+                            <p class="recent__detail discord"><span class="icon"><i class="ion-social-apple"></i> </span><a href="#" alt="ios" target="_blank">iOS</a></p>
+                        </div>
+                    </div>
+                    <div class="recent__release">
+                        Coming Soon
+                    </div>
+                </figure>
+    
+                <figure class="recent">
+                    <div class="recent__hero">
+                        <a href="coming-soon.html" alt="projectshell" target="_blank"><img src="resources/img/projects/projectShell.jpg" alt="projectShell" class="recent__image"></a>
+                    </div>
+                    <div class="recent__content">
+                        <div class="recent__title">
+                            <h1 class="recent__heading">whoiszimvo</h1>
+                            <div class="recent__tag recent__tag__1">Web</div>
+                            <div class="recent__tag recent__tag__2">Discord</div>
+                        </div>
+                        <p class="recent__desc">This is literally the website you are on right now, but it will be hosted on an independent domain.</p>
+                        <div class="recent__details">
+                            <p class="recent__detail website"><span class="icon"><i class="ion-laptop"></i></span><a href="#aboutus" alt="website">Website</a></p>
+                            <p class="recent__detail discord"><span class="icon"><i class="ion-social-github"></i> </span><a href="https://discord.gg/mTCGDXP" alt="discord" target="_blank">Discord</a></p>
+                        </div>
+                    </div>
+                    <div class="recent__release">
+                        21 Sept. 2020
+                    </div>
+                </figure>
+
+            </div>
         </section>
         
         <section class="section-steps">
