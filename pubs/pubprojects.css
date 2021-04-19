@@ -3,6 +3,8 @@
 :root {
   background-color: #ecf5ff;
   font-size: 62.5%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/resources/css/img/sunset.gif);
+  background-size: cover;
 }
 
 *{
@@ -81,6 +83,7 @@ h1 > span {
     margin: 2rem;
     text-align: center;
     font-size: 1.8rem;
+    font-weight: 500;
 }
 
 .hidden img {
@@ -90,5 +93,5 @@ h1 > span {
 
 .pub:hover + .hidden {
     display: inline-block;
-    color: rgb(101, 145, 180);
+    color: rgb(54, 126, 126);
 }
