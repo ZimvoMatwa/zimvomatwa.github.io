@@ -71,15 +71,15 @@ h1 > span {
   background-color: rgb(107, 105, 105);
 }
 
-/* .pub:hover {
+.pub:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
-} */
+}
 
 .hidden {
-    display: none;
+    /* display: none; */
     margin: 2rem;
     text-align: center;
     font-size: 1.8rem;
